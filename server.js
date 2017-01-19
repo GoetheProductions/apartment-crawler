@@ -10,5 +10,6 @@ const sendMessage = require('./sendMessage.js')
 
  app.listen(port, function() {
    console.log("Listening on " + port);
-   sendMessage();
  });
+
+sendMessage();
