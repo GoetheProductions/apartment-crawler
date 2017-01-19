@@ -1,0 +1,21 @@
+{
+  "name": "crawlerprivatbolig",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@cedx/free-mobile": "^2.4.0",
+    "crawler": "^1.0.2",
+    "express": "^4.14.0",
+    "express-mailer": "^0.3.1",
+    "sendmail": "^1.1.1",
+    "sinch-sms": "0.0.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
