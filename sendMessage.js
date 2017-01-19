@@ -24,6 +24,7 @@ module.exports = function() {
     const uri = 'https://www.privatbo.dk/?id=95';
     const message = "privatbo klar til tilmeldinger: https://www.privatbo.dk/?id=95"
     
+    console.log('SCRIPT UPDATE')
     c.queue([{
         uri,
         jQuery: false,
